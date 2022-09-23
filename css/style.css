@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;700&display=swap");
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  margin: 0;
+  background-color: #0B3346;
+}
+
+.container {
+  margin: 0px 150px 0px 150px;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  position: relative;
+  justify-content: space-between;
+}
+.navbar .nav-brand {
+  font-size: 22px;
+  align-self: center;
+}
+.navbar .nav-brand a {
+  text-decoration: none;
+  color: white;
+}
+.navbar .nav-items {
+  font-size: 18px;
+  align-self: center;
+  float: right;
+  list-style: none;
+  display: flex;
+}
+.navbar .nav-items a {
+  color: #DAE4C3;
+  text-decoration: none;
+  margin: 15px;
+}
+.navbar .nav-items a:hover {
+  color: white;
+}
+.navbar .nav-items .active {
+  color: white;
+}
+
+.hero-container {
+  margin-top: 80px;
+  display: grid;
+  column-gap: 60px;
+  grid-template-columns: 60% 40%;
+  justify-items: center;
+}
+.hero-container .hero-1 {
+  color: white;
+}
+.hero-container .hero-1 .title {
+  font-size: 49px;
+  margin-bottom: 30px;
+}
+.hero-container .hero-1 .title span {
+  font-weight: bold;
+}
+.hero-container .hero-1 .paraph {
+  padding-right: 230px;
+  line-height: 30px;
+  font-size: 18px;
+}
+.hero-container .hero-1 .paraph span {
+  font-weight: bold;
+}
+.hero-container .hero-2 {
+  align-self: center;
+}
+.hero-container .hero-2 img {
+  width: 430px;
+  height: 430px;
+}
+.hero-container .btn-container {
+  margin-top: 100px;
+}
+.hero-container .btn-container .btn-work {
+  padding: 16px 53px 16px 53px;
+  text-decoration: none;
+  background-color: #DAE4C3;
+  border-radius: 5px;
+  color: #0B3346;
+  font-size: 17px;
+  border: 2px solid #DAE4C3;
+}
+.hero-container .btn-container .btn-work:hover {
+  background-color: #0B3346;
+  color: #DAE4C3;
+  border: 2px solid #DAE4C3;
+}
+.hero-container .btn-container .btn-about {
+  margin-left: 40px;
+  padding: 16px 53px 16px 53px;
+  text-decoration: none;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 2px solid #DAE4C3;
+  color: #DAE4C3;
+  font-size: 17px;
+}
+.hero-container .btn-container .btn-about:hover {
+  background-color: #DAE4C3;
+  color: #0B3346;
+  border: 2px solid #DAE4C3;
+}
+
+/*# sourceMappingURL=style.css.map */
